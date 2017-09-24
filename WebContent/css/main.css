@@ -977,11 +977,15 @@ h3.top-zero{
 
 .choose{
     padding: 40px 0;
-    /*background: #eef7fe;*/
 }
 
 #company-information.choose .padding-top{
     padding-top: 0;
+    background: #e9f3fb;
+}
+
+#company-information{
+    background: #e9f3fb;
 }
 
 #company-information h2{
@@ -3697,7 +3701,7 @@ textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 140px 0;
+    padding: 50px 0;
 }
 .bg-scroll {
     background-attachment: scroll !important;
@@ -3771,6 +3775,7 @@ textarea {
     background: transparent !important;
     border: none;
     border-bottom: 1px solid rgba(255,255,255,.15);
+    border-color: #e31e25;
     border-radius: 0;
 }
 .cf-right-col {
@@ -3794,6 +3799,7 @@ textarea {
     color: #fff;
     background: transparent;
     border: 1px solid rgba(255,255,255,.15);
+    border-color: #e31e25;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
