@@ -477,7 +477,7 @@ ul.sub-menu {
 }
 
 .form-control {
-    border: 1px solid #eaeaea;
+    border: 1px solid #ccc;
     font-weight: 300;
     outline: none;
     box-shadow: none;
@@ -2913,12 +2913,12 @@ span.stButton_gradient,
     line-height: 30px!important;
 }
 .navbar-nav > li > .dropdown-menu {
-    margin-top: -1px;
+    margin-top: -5px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     padding: 15px 0;
     box-shadow: 0px 2px 5px #a4a4a4;
-    width: 70%;
+    width: 75%;
 }
 .fa-hand-color{
     color: #02b3f9;
@@ -3297,7 +3297,7 @@ textarea {
     opacity: 1;
     transition: opacity 0.2s;
 }
-@media (min-width: 768px){
+@media (min-width: 769px){
     .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
         margin-right: 0;
         margin-left: 80px;
@@ -3923,4 +3923,8 @@ textarea {
     -webkit-animation: argh-my-eyes 2s infinite;
     -moz-animation:    argh-my-eyes 2s infinite;
     animation:         argh-my-eyes 2s infinite;
+}
+
+.border-menu {
+    border-bottom: 1px solid #dedede;
 }
