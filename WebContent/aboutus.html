@@ -14,15 +14,104 @@
         <link href="css/responsive.css" rel="stylesheet">     
         <link rel="shortcut icon" href="images/favicon.png">
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script>
-            $(function () {
-                $("#header").load("header.html");
-                $("#footer").load("footer.html");
-            });
-        </script> 
+        <!--        <script>
+                    $(function () {
+                        $("#header").load("header.html");
+                    });
+                </script> -->
     </head><!--/head-->
     <body>
-        <div id="header"></div>  
+        <header id="header">
+            <div class="navbar navbar-inverse" role="banner">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <h1><img src="images/logo.png" alt="logo"></h1>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul id="navigation" class="nav navbar-nav navbar-right">
+                            <li class=""><a href="index.html">Home</a></li> 
+                            <li class="dropdown mega-dropdown desk-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="fa fa-angle-down"></span></a>				
+                                <ul class="dropdown-menu mega-dropdown-menu">
+                                    <li class="col-sm-6">
+                                        <ul class="p-a-0">
+                                            <li class="dropdown-header"><a href="technological-service.html"><i class="fa fa-desktop" aria-hidden="true"></i> Technological Services</a></li>
+                                            <li class="divider"></li>
+                                        </ul>
+                                        <div class="col-md-6">
+                                            <ul class="p-a-0">
+                                                <li><a class="p-a-0" href="technological-service.html#website-designing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Website Designing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#web-mobile-app-development"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Web and Mobile App Development</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#website-designing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Website Designing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#web-mobile-app-development"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Web and Mobile App Development</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">                                           
+                                            <ul class="p-a-0">
+                                                <li><a class="p-a-0" href="technological-service.html#digital-marketing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Digital Marketing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#animation-video-creation"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Animation and Video Creation</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#website-designing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Website Designing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#web-mobile-app-development"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Web and Mobile App Development</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-6">
+                                        <ul class="p-a-0">
+                                            <li class="dropdown-header"><a href="financial-service.html"><i class="fa fa-money" aria-hidden="true"></i> Financial Services</a></li>
+                                            <li class="divider"></li>
+                                        </ul>
+                                        <div class="col-md-6">
+                                            <ul class="p-a-0">
+                                                <li><a class="p-a-0" href="financial-service.html#llp-llc-registration"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> LLP/ LLC Partnership Registration</a></li>
+                                                <li><a class="p-a-0" href="financial-service.html#erp-accounting"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> ERP Accounting</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="p-a-0" >
+                                                <li><a class="p-a-0" href="financial-service.html#gst-file-return"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> GST File Return</a></li>
+                                                <li><a class="p-a-0" href="financial-service.html#audit-services"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Audit Services</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>				
+                            </li>
+                            <li class="nav-item mobile-menu">
+                                <a class="nav-link dropdown-toggle" href="service.html" id="navigation-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Service <span class="fa fa-angle-down"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navigation-2"  style="padding-top: 0;">
+                                    <a class="border-menu" href="technological-service.html#website-designing">Website Designing</a>
+                                    <a class="border-menu" href="technological-service.html#web-mobile-app-development">Web and Mobile App Development</a>
+                                    <a class="border-menu" href="technological-service.html#website-designing">Website Designing</a>
+                                    <a class="border-menu" href="technological-service.html#web-mobile-app-development">Web and Mobile App Development</a>
+                                    <a class="border-menu" href="financial-service.html#llp-llc-registration">LLP/ LLC Partnership Registration</a>
+                                    <a class="border-menu" href="financial-service.html#erp-accounting">ERP Accounting</a>
+                                    <a class="border-menu" href="financial-service.html#gst-file-return">GST File Return</a>
+                                    <a class="border-menu" href="financial-service.html#audit-services">Audit Services</a>
+                                </div>
+                            </li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li>
+                                <div class="content">
+                                    <div class="buttons">
+                                        <div id="two" class="button careers-menu">Careers</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="" class="" style="font-weight: 700;background:rgb(33, 150, 243);color:#FFF;">Startup खोपचा</a></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </header> 
         <!--/#header-->
 
         <section id="page-breadcrumb" class="page-header-box">
@@ -191,6 +280,112 @@
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>   
+        <script>
+            $(document).ready(function () {
+                $(".dropdown").hover(
+                        function () {
+                            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
+                            $(this).toggleClass('open');
+                        },
+                        function () {
+                            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
+                            $(this).toggleClass('open');
+                        }
+                );
+            });
+            $('.button').click(function () {
+                var buttonId = $(this).attr('id');
+                $('#modal-container').removeAttr('class').addClass(buttonId);
+                $('body').addClass('modal-active');
+            })
+
+            $('.close').click(function () {
+                $('#modal-container').addClass('out');
+                $('body').removeClass('modal-active');
+            });
+            $(document).ready(function () {
+                $('#Carousel').carousel({
+                    interval: 3000
+                })
+            });
+            /* Demo Scripts for Bootstrap Carousel and Animate.css article
+             * on SitePoint by Maria Antonietta Perna
+             */
+            $(document).ready(function () {
+                $('#carousel-example-generic').carousel({
+                    interval: 3000
+                })
+            });
+            (function ($) {
+
+                //Function to animate slider captions 
+                function doAnimations(elems) {
+                    //Cache the animationend event in a variable
+                    var animEndEv = 'webkitAnimationEnd animationend';
+
+                    elems.each(function () {
+                        var $this = $(this),
+                                $animationType = $this.data('animation');
+                        $this.addClass($animationType).one(animEndEv, function () {
+                            $this.removeClass($animationType);
+                        });
+                    });
+                }
+
+                //Variables on page load 
+                var $myCarousel = $('#carousel-example-generic'),
+                        $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+
+                //Initialize carousel 
+                $myCarousel.carousel();
+
+                //Animate captions in first slide on page load 
+                doAnimations($firstAnimatingElems);
+
+                //Pause carousel  
+                $myCarousel.carousel('pause');
+
+
+                //Other slides to be animated on carousel slide event 
+                $myCarousel.on('slide.bs.carousel', function (e) {
+                    var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+                    doAnimations($animatingElems);
+                });
+
+            })(jQuery);
+
+            //    $(function () {
+            //        var current = location.pathname;
+            //        $('.nav li').each(function () {
+            //            var $this = $(this);
+            //            // if the current path is like this link, make it active
+            //            if ($this.attr('href').indexOf(current) !== -1) {
+            //                $this.addClass('active');
+            //            }
+            //        });
+            //    });
+            //    jQuery(function ($) {
+            //        var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+            //        alert(path);
+            //        $('.navbar-nav li').each(function () {
+            //            if (this.href === path) {
+            //                $(this).addClass('active');
+            //            }
+            //        });
+            //    });
+            //    $(function () {
+            //        var pgurl = window.location.href.substr(window.location.href
+            //                .lastIndexOf("/") + 1);
+            //        alert(pgurl);
+            //        $("#navigation li").each(function () {
+            //            if ($("#navigation li").attr("href") === pgurl || $("#navigation li").attr("href") === '')
+            //                $("#navigation li").addClass("active");
+            //        });
+            //    });
+        </script>
     </body>
 </html>
