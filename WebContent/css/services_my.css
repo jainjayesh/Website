@@ -1,0 +1,272 @@
+	.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.sec4{
+ background: url(../images/services/bg-web-develop.jpg) #f1f1f1 no-repeat top; 
+padding: 50px 0px;
+}
+.desc-white{
+font-size: 16px;
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.img-row{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+	 padding: 50px 0px 0px 0px;
+}
+.sec4 h2{
+font-size: 34px;
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+}
+.sec3 {
+    background: #FFF;
+    padding: 30px 0px;
+	margin-top:75px;
+}
+.web-develop h1{
+font-size: 21px;
+font-weight:500;
+text-align: center;
+}
+.sec5 {
+    padding: 50px 0px;
+    background: #f1f1f1
+	}
+	
+	.sec5 h2 {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+}
+.desc-black {
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+}
+.wire-row {
+    padding: 50px 0px;
+}
+.wire-col {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.wire-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.sec7 {
+    background: url(../images/services/bg-reachin.jpg) no-repeat #f1f1f1 top;
+    padding: 50px 0px;
+}
+.sec7 h2 {
+    font-size: 34px;
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+	}
+	.desc-white-rech {
+    font-size: 16px;
+    color: #c3c1c0;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+	    text-decoration: none;
+}
+.desc-white-rech a {
+    color: #c3c1c0;
+    text-decoration: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clearfix:after, .container:after, .container-fluid:after, .row:after {
+    clear: both;
+}
+
+.img-row-col {
+    width: 11%;
+    height: auto;
+    float: left;
+    padding-bottom: 0px;
+}
+.img-row-col img {
+    width: auto;
+    display: inline-block;
+}
+.icon-name {
+    font-size: 18px;
+    color: #c3c1c0;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.img-row-col1 {
+    width: 11%;
+    height: auto;
+    float: left;
+    padding: 30px 0px;
+}
+
+.img-row-col1 img {
+    width: auto;
+    display: inline-block;
+}
+.sec6 {
+    padding: 50px 0px;
+    background: #f1f1f1;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 970px;
+}
+.sec6 h2 {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+}
+.solution-main {
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+.solution-col {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 0px 20px;
+    font-weight: normal;
+}
+.desc-black a {
+    color: #000;
+    text-decoration: none;
+}
+
+.solution-col ul {
+    float: left;
+    height: auto;
+    width: auto;
+}
+ul{
+    list-style: none;
+}
+.solution-col ul li {
+    color: #000;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    line-height: 40px;
+    list-style: circle;
+    width: 100%;
+}
+.sec8 {
+    padding: 50px 0px;
+    background: #FFF;
+}
+.sec8 h2 {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+}
+.tech-love-title {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+}
+#wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+#center {
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+}
+.cell {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding-right: 10px;
+    clear: none;
+	padding-bottom: 15px;
+    text-align: center;
+}
+.cell img {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+@media (min-width: 992px){
+.cell img {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.cell {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding-right: 10px;
+    clear: none;
+}
+#center {
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+}
+#wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.sec8 {
+    padding: 50px 0px;
+    background: #FFF;
+}
+.sec8 h2 {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+}
+.sec6 {
+    padding: 50px 0px;
+    background: #f1f1f1;
+    overflow-x: hidden;
+}
+.tech-love-title {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+}
+}
