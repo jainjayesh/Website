@@ -1,6 +1,5 @@
 .title-row {}.title-row h1 {
     font-size: 22px;
-    font-weight: 400;
 }
 .sec2 {
     background: #e00202;
@@ -14,12 +13,11 @@
 .sec3 {
     background: #FFF;
     padding: 25px 0px;
-	margin-top:75px;
+    margin-top:75px;
 }
 .web-develop {}.web-develop h1 {
     font-size: 18px;
     color: #000;
-    font-weight: 400;
     text-align: center;
 }
 .web-develop h1 img {
@@ -33,13 +31,11 @@
 .sec4 h2 {
     font-size: 22px;
     color: #FFF;
-    font-weight: 400;
     text-align: center;
 }
 .desc-white {
     font-size: 14px;
     color: #FFF;
-    font-weight: 300;
     text-align: center;
     padding: 20px 0px 0px 0px;
 }
@@ -61,13 +57,11 @@
 .sec5 h2 {
     font-size: 22px;
     color: #000;
-    font-weight: 400;
     text-align: center;
     padding-top: 25px;
 }
 .desc-black {
     color: #000;
-    font-weight: 300;
     text-align: center;
     padding: 20px 10px 0px 10px;
 }
@@ -109,14 +103,12 @@
 .sec6 h2 {
     font-size: 22px;
     color: #000;
-    font-weight: 400;
     text-align: center;
     padding-top: 20px;
 }
 .tech-love-title {
     font-size: 22px;
     color: #000;
-    font-weight: 400;
     text-align: center;
     padding-top: 20px;
 }
@@ -127,7 +119,6 @@
 .sec8 h2 {
     font-size: 22px;
     color: #000;
-    font-weight: 400;
     text-align: center;
     padding-top: 20px;
 }
@@ -161,7 +152,6 @@
     font-size: 14px;
     height: auto;
     line-height: 40px;
-    font-weight: 300;
 }
 .solution-col ul li a {
     color: #000;
@@ -222,7 +212,6 @@
 .sec7 h2 {
     font-size: 34px;
     color: #FFF;
-    font-weight: 400;
     text-align: center;
 }
 .img-row {
@@ -262,7 +251,6 @@
 .desc-white-rech {
     font-size: 16px;
     color: #c3c1c0;
-    font-weight: 300;
     text-align: center;
     padding: 20px 0px 0px 0px;
 }
@@ -273,7 +261,6 @@
 .icon-name {
     font-size: 18px;
     color: #c3c1c0;
-    font-weight: 300;
     text-align: center;
     padding-top: 17px;
 }
@@ -312,7 +299,6 @@
     .sec7 h2 {
         font-size: 34px;
         color: #FFF;
-        font-weight: 400;
         text-align: center;
     }
     .img-row {
@@ -352,14 +338,12 @@
     .desc-white-rech {
         font-size: 16px;
         color: #c3c1c0;
-        font-weight: 300;
         text-align: center;
         padding: 20px 0px 0px 0px;
     }
     .icon-name {
         font-size: 18px;
         color: #c3c1c0;
-        font-weight: 300;
         text-align: center;
         padding-top: 17px;
     }
@@ -395,7 +379,6 @@
     }
     .title-row {}.title-row h1 {
         font-size: 36px;
-        font-weight: 400;
     }
     .span {
         background-image: url("../images/services/i-wd.png");
@@ -424,7 +407,6 @@
     .web-develop {}.web-develop h1 {
         font-size: 18px;
         color: #000;
-        font-weight: 400;
         text-align: center;
     }
     .web-develop h1 img {
@@ -438,13 +420,11 @@
     .sec4 h2 {
         font-size: 34px;
         color: #FFF;
-        font-weight: 400;
         text-align: center;
     }
     .desc-white {
         font-size: 16px;
         color: #FFF;
-        font-weight: 300;
         text-align: center;
         padding: 20px 0px 0px 0px;
     }
@@ -466,13 +446,11 @@
     .sec5 h2 {
         font-size: 34px;
         color: #000;
-        font-weight: 400;
         text-align: center;
     }
     .desc-black {
         font-size: 16px;
         color: #000;
-        font-weight: 300;
         text-align: center;
         padding: 20px 10px 0px 10px;
     }
@@ -514,14 +492,12 @@
     .sec6 h2 {
         font-size: 34px;
         color: #000;
-        font-weight: 400;
         text-align: center;
         padding-top: 0px;
     }
     .tech-love-title {
         font-size: 34px;
         color: #000;
-        font-weight: 400;
         text-align: center;
         padding-top: 0px;
     }
@@ -532,7 +508,6 @@
     .sec8 h2 {
         font-size: 34px;
         color: #000;
-        font-weight: 400;
         text-align: center;
         padding-top: 0px;
     }
@@ -566,7 +541,6 @@
         font-size: 14px;
         height: auto;
         line-height: 40px;
-        font-weight: 300;
     }
     .solution-col ul li a {
         color: #000;
@@ -587,7 +561,6 @@
     .sec7 h2 {
         font-size: 34px;
         color: #FFF;
-        font-weight: 400;
         text-align: center;
     }
     .img-row {
@@ -622,7 +595,6 @@
     .desc-white-rech {
         font-size: 16px;
         color: #c3c1c0;
-        font-weight: 300;
         text-align: center;
         padding: 20px 0px 0px 0px;
     }
@@ -633,7 +605,6 @@
     .icon-name {
         font-size: 18px;
         color: #c3c1c0;
-        font-weight: 300;
         text-align: center;
         padding-top: 17px;
     }
