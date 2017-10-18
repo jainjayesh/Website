@@ -4233,3 +4233,50 @@ div.tab button.active {
     margin-bottom: 20px;
     font-size: 24px;
 }
+@media screen and (max-width:767px){
+    .carousel-caption h3 {
+        padding: 5px;
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 0;
+    }
+    #carousel-example-generic .item {
+        min-height: 150px;
+        height: 150px;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    #carousel-example-generic .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 160px;
+        margin-top: 15%;
+    }
+    .font-heading {
+        font-size: 30px;
+        margin: 20px auto;
+        margin-bottom: 40px;
+    }
+    .who-we-are {
+        background: #e9f3fb;
+        padding: 20px;
+        display: table;
+    }
+    #carousel-example-generic .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 0;
+        top: 5%;
+    }
+    .platforms {
+        padding: 40px 0;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        top: 40%;
+    }
+}
