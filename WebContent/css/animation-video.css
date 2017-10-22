@@ -1,0 +1,42 @@
+.section-border {
+    border-bottom: solid 1px #c6d2d2;
+    padding-bottom: 80px;
+}
+.section-white-bg {
+    background: #FFF;
+}
+h2.subServices {
+    color: #e60909;
+    text-align: center !important;
+    margin-top: 20px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.servicesPageTop p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.servicesPageDemo {
+    overflow: hidden;
+    margin: 15px 0 20px;
+}
+.servicesPageDemo .cursor-link {
+    background: #3499cd;
+}
+section.subServicesWrap {
+    padding: 25px 0 25px;
+}
+section.subServicesWrap h5.subServicesPage {
+    font-size: 35px;
+    font-weight: normal!important;
+    color: #3499cd;
+    text-align: center;
+}
+section {
+    position: relative;
+    width: 100%;
+    padding: 7em 0;
+    display: block;
+    height: auto;
+    overflow: hidden;
+}

@@ -1,0 +1,333 @@
+.title-row {}.title-row h1 {
+    font-size: 22px;
+
+}
+.sec2 {
+    background: #e00202;
+    padding: 30px 0px 30px 0px;
+    display: none;
+}
+.top-nav {
+    background: #e00202;
+    margin-top: 120px;
+}
+.sec3 {
+    background: #FFF;
+    padding: 25px 0px;
+    margin-top: 62px;
+}
+.web-develop {}.web-develop h1 {
+    font-size: 18px;
+    color: #000;
+
+    text-align: center;
+}
+.web-develop h1 img {
+    width: auto;
+    display: inline;
+}
+.sec4 {
+    background: #f1f1f1;
+    padding: 30px 0px;
+}
+.sec4 h2 {
+    font-size: 22px;
+    color: #000;
+
+    text-align: center;
+}
+.desc-white {
+    font-size: 14px;
+    color: #FFF;
+
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.desc-white a {
+    text-decoration: none;
+    color: #FFF;
+}
+.img-row {
+    padding: 0px 0px 0px 0px;
+}
+.img-row img {
+    width: 100%;
+    display: block;
+}
+.sec5 {
+    padding: 30px 0px 0px 0px;
+    background: url(../images/services/bg-seo.jpg) no-repeat #f1f1f1 top;
+    ;
+}
+.sec5 h2 {
+    font-size: 22px;
+    color: #FFF;
+
+    text-align: center;
+}
+.desc-black {
+    font-size: 14px;
+    color: #000;
+
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+.desc-black a {
+    text-decoration: none;
+    color: #000;
+}
+.wire-row {
+    padding: 50px 0px;
+}
+.wire-col {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.wire-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.wire-col1 {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.wire-col1 img {
+    width: auto;
+    height: auto;
+    display: inline;
+}
+.sec6 {
+    padding: 50px 0px;
+    background: #f1f1f1;
+}
+.sec6 h2 {
+    font-size: 22px;
+    color: #000;
+
+    text-align: center;
+}
+.solution-main {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.solution-col {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 0px 20px;
+}
+.solution-col ul {
+    float: left;
+    height: auto;
+    width: auto;
+}
+.solution-col ul li {
+    color: #000;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    line-height: 40px;
+    list-style: circle;
+    width: 100%;
+}
+.solution-col ul li a {
+    color: #000;
+    font-size: 14px;
+    list-style: outside none inline;
+    text-decoration: none;
+}
+.solution-col ul li a:hover {
+    color: #000;
+    font-size: 14px;
+    list-style: outside none inline;
+    text-decoration: none;
+}
+.sec7 {
+    padding: 0px 0px;
+    background: #f1f1f1;
+}
+.sec7 h2 {
+    font-size: 22px;
+    color: #000;
+
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .title-row {}.title-row h1 {
+        font-size: 36px;
+
+    }
+
+    .sec2 {
+        background: #e00202;
+        padding: 14px 0px 10px 0px;
+        display: none;
+    }
+    .top-nav {
+        background: #e00202;
+        margin-top: 120px;
+    }
+    .sec3 {
+        background: #FFF;
+        padding: 30px 0px;
+    }
+    .web-develop {}.web-develop h1 {
+        font-size: 18px;
+        color: #000;
+
+        text-align: center;
+    }
+    .web-develop h1 img {
+        width: auto;
+        display: inline;
+    }
+    .sec4 {
+        background: #f1f1f1;
+        padding: 50px 0px;
+    }
+    .sec4 h2 {
+        font-size: 34px;
+        color: #000;
+
+        text-align: center;
+    }
+    .desc-white {
+        font-size: 14px;
+        color: #FFF;
+
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+    .desc-white a {
+        text-decoration: none;
+        color: #FFF;
+    }
+    .desc-white p {
+        padding: 0px 0px 20px 0px;
+    }
+    .img-row {
+        padding: 0px 0px 0px 0px;
+    }
+    .img-row img {
+        width: 100%;
+        display: block;
+    }
+    .sec5 {
+        padding: 50px 0px 0px 0px;
+        background: url(../images/services/bg-seo.jpg) no-repeat #f1f1f1 top;
+    }
+    .sec5 h2 {
+        font-size: 34px;
+        color: #FFF;
+
+        text-align: center;
+    }
+    .desc-black {
+        font-size: 18px;
+        color: #000;
+
+        text-align: center;
+        padding: 20px 10px 0px 10px;
+    }
+    .desc-black p {
+        padding: 0px 0px 20px 0px;
+    }
+    .desc-black a {
+        text-decoration: none;
+        color: #000;
+    }
+    .wire-row {
+        padding: 50px 0px;
+    }
+    .wire-col {
+        width: 45%;
+        height: auto;
+        float: left;
+        text-align: center;
+    }
+    .wire-col img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .wire-col1 {
+        width: 10%;
+        height: auto;
+        float: left;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .wire-col1 img {
+        width: auto;
+        height: auto;
+        display: inline;
+    }
+    .sec6 {
+        padding: 50px 0px;
+        background: #f1f1f1;
+    }
+    .sec6 h2 {
+        font-size: 34px;
+        color: #000;
+
+        text-align: center;
+    }
+    .solution-main {
+        margin-bottom: 50px;
+        padding-top: 50px;
+    }
+    .solution-col {
+        width: 50%;
+        height: auto;
+        float: left;
+        padding: 0px 20px;
+    }
+    .solution-col ul {
+        float: left;
+        height: auto;
+        width: auto;
+    }
+    .solution-col ul li {
+        color: #000;
+        float: left;
+        font-size: 14px;
+        height: auto;
+        line-height: 40px;
+        list-style: circle;
+        width: 100%;
+    }
+    .solution-col ul li a {
+        color: #000;
+        font-size: 14px;
+        list-style: outside none inline;
+        text-decoration: none;
+    }
+    .solution-col ul li a:hover {
+        color: #000;
+        font-size: 14px;
+        list-style: outside none inline;
+        text-decoration: none;
+    }
+    .sec7 {
+        padding: 0px 0px 0px 0px;
+        background: #f1f1f1;
+    }
+    .sec7 h2 {
+        font-size: 34px;
+        color: #000;
+
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}

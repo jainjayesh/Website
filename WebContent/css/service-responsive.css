@@ -247,7 +247,6 @@ a:hover {
         margin-top: 40px
     }
 }
-s
 .font60-bold {
     font-size: 22px;
     font-weight: 700;
@@ -1721,7 +1720,7 @@ footer .container {
         opacity: 1;
     }
 }
-@-o-keyframes mouse-scroll {
+@-o-keyframes "mouse-scroll" {
     0% {
         opacity: 0
     }

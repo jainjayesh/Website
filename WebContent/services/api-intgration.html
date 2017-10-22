@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>API Integration | Tirnav Solutions</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/lightbox.css" rel="stylesheet">
+        <link href="../css/animate.min.css" rel="stylesheet"> 
+        <link href="../css/responsive.css" rel="stylesheet">     
+        <link href="../css/sservice-responsive.css" rel="stylesheet">  
+        <link href="../css/api-integration.css" rel="stylesheet">   
+        <link href="../css/main.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../images/favicon.png">
+        <script type="text/javascript" src="../js/jquery.js"></script>
+
+    </head><!--/head-->
+    <body>
+        <header id="header">
+            <div class="navbar navbar-inverse" role="banner">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <h1><img src="../images/logo.png" alt="logo"></h1>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul id="navigation" class="nav navbar-nav navbar-right">
+                            <li class=""><a href="index.html">Home</a></li> 
+                            <li class="dropdown mega-dropdown desk-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="fa fa-angle-down"></span></a>				
+                                <ul class="dropdown-menu mega-dropdown-menu">
+                                    <li class="col-sm-6">
+                                        <ul class="p-a-0">
+                                            <li class="dropdown-header"><a href="technological-service.html"><i class="fa fa-desktop" aria-hidden="true"></i> Technological Services</a></li>
+                                            <li class="divider"></li>
+                                        </ul>
+                                        <div class="col-md-6">
+                                            <ul class="p-a-0">
+                                                <li><a class="p-a-0" href="technological-service.html#website-designing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Website Designing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#web-mobile-app-development"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Web and Mobile App Development</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#website-designing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Website Designing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#web-mobile-app-development"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Web and Mobile App Development</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">                                           
+                                            <ul class="p-a-0">
+                                                <li><a class="p-a-0" href="technological-service.html#digital-marketing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Digital Marketing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#animation-video-creation"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Animation and Video Creation</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#website-designing"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Website Designing</a></li>
+                                                <li><a class="p-a-0" href="technological-service.html#web-mobile-app-development"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Web and Mobile App Development</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="col-sm-6">
+                                        <ul class="p-a-0">
+                                            <li class="dropdown-header"><a href="financial-service.html"><i class="fa fa-money" aria-hidden="true"></i> Financial Services</a></li>
+                                            <li class="divider"></li>
+                                        </ul>
+                                        <div class="col-md-6">
+                                            <ul class="p-a-0">
+                                                <li><a class="p-a-0" href="financial-service.html#llp-llc-registration"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> LLP/ LLC Partnership Registration</a></li>
+                                                <li><a class="p-a-0" href="financial-service.html#erp-accounting"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> ERP Accounting</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="p-a-0" >
+                                                <li><a class="p-a-0" href="financial-service.html#gst-file-return"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> GST File Return</a></li>
+                                                <li><a class="p-a-0" href="financial-service.html#audit-services"><i class="fa fa-hand-o-right fa-hand-color" aria-hidden="true"></i> Audit Services</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>				
+                            </li>
+                            <li class="nav-item mobile-menu">
+                                <a class="nav-link dropdown-toggle" href="service.html" id="navigation-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Service <span class="fa fa-angle-down"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navigation-2"  style="padding-top: 0;">
+                                    <a class="border-menu" href="technological-service.html#website-designing">Website Designing</a>
+                                    <a class="border-menu" href="technological-service.html#web-mobile-app-development">Web and Mobile App Development</a>
+                                    <a class="border-menu" href="technological-service.html#website-designing">Website Designing</a>
+                                    <a class="border-menu" href="technological-service.html#web-mobile-app-development">Web and Mobile App Development</a>
+                                    <a class="border-menu" href="financial-service.html#llp-llc-registration">LLP/ LLC Partnership Registration</a>
+                                    <a class="border-menu" href="financial-service.html#erp-accounting">ERP Accounting</a>
+                                    <a class="border-menu" href="financial-service.html#gst-file-return">GST File Return</a>
+                                    <a class="border-menu" href="financial-service.html#audit-services">Audit Services</a>
+                                </div>
+                            </li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li>
+                                <div class="content">
+                                    <div class="buttons">
+                                        <div id="two" class="button careers-menu">Careers</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="" class="" style="font-weight: 700;background:rgb(33, 150, 243);color:#FFF;">Startup खोपचा</a></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </header> 
+        <!--/#header-->
+
+        <!--<section id="page-breadcrumb" class="page-header-box">
+            <div class="vertical-center sun">
+                <div class="container">
+                    <div class="row">
+                        <div class="action">
+                            <div class="col-sm-12">
+                                <h1 class="heading">Best-in-Class Website Design & Web Development Company</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <div class="sec3">
+            <div class="container">
+                <div class="web-develop">
+                    <h1>API Integrations Services</h1> </div>
+            </div>
+        </div>
+        <div class="sec4">
+            <div class="container">
+                <h2>Building Connected Solutions through integrated APIs</h2>
+                <div class="desc-black">
+                    <p>REST APIs made available by leading platforms and popular startups present a considerable opportunity to create integrated, connected websites and <a href="https://www.brandcatmedia.com/services/ios-android-mobile-application-development.html" title="Mobile Applications Development Company Mumbai"><b>mobile applications</b></a>. These REST APIs range from OAUTH authentications to tapping into large existing data sources to deep interaction with external platforms, all of which can power anything from simple integrations allowing users to log in to your application using their Facebook account to building an all round content aggregator that combines multiple APIs and provides collated, structured data to it's users.</p>
+                    <p>Private APIs on the other hand offer interaction into existing systems and can be used to build secure data gateways into private sources.</p>
+                </div>
+                <div class="img-row"><img src="../images/services/i-social.png" alt="Social Media Apps, Optimization &amp; Marketing"></div>
+            </div>
+        </div>
+
+        <div class="sec5">
+            <div class="container">
+                <h2>Integrating as well as building Multi Tier architectures</h2>
+                <div class="desc-white">
+                    <p>At <a href="" title="Brand Catalyst Media"><b>Brand Catalyst Media</b></a>, we use our vast experience integrating existing REST APIs as well building AES encrypted private REST APIs to be used by websites and <a href="https://www.brandcatmedia.com/services/ios-android-mobile-application-development.html" title="Mobile Applications Development Company in Mumbai"><b>mobile applications</b></a> created by us for our clients.</p>
+                    <p>We strongly champion multi tier architectures to all our clients because of their scalable, maintainable nature. Multi tier architectures separate the business login or web service layer from the backend and the UI. This gives projects a huge benefit in optimising the way data transacts on their system, universally fixing or upgrading business logic across multiple platforms and even deploying new platforms using existing data sources. Imagine a website built in such a manner that requires you to make no spend on the backend to deploy <a href="https://www.brandcatmedia.com/services/ios-android-mobile-application-development.html" title="IOS and Android Mobile Application Development"><b>iOS and Android applications</b></a> where the only costs you would incur is the design and development of the app itself because the web service APIs (business logic &amp; data layers) are already in place.</p>
+                </div>
+                <div class="img-row"><img src="../images/services/i-social-hand.png" alt="Social brands are happy brands"></div>
+            </div>
+        </div>
+
+        <div class="sec7">
+            <div class="container">
+                <h2>A range of REST API integration services</h2>
+                <div class="desc-black">Facebook, Google Plus, LinkedIn, Instagram, Twitter, Pinterest</div>
+                <div class="solution-main clearfix">
+                    <div class="solution-col">
+                        <ul>
+                            <li><b>Social Network Authentication &amp; Share APIs</b>
+                                <br>Facebook, Google Plus, LinkedIn, Instagram, Twitter, Pinterest</li>
+                            <li><b>Maps &amp; Geo Location APIs</b>
+                                <br>Google Maps, Bing Maps, Google Places, Foursquare</li>
+                            <li><b>Communication, Email APIs, Push APIs</b>
+                                <br>Sendgrid, Mandrill, Apple Push Notification, Google Cloud Messaging, Parse, Push Woosh,</li>
+                            <li><b>Real Time APIs</b>
+                                <br>Pubnub, Pusher, Quickblox</li>
+                        </ul>
+                    </div>
+                    <div class="solution-col">
+                        <ul>
+                            <li><b>Payment APIs</b>
+                                <br>PayPal, CCAvenue, Paytm, PayU</li>
+                            <li><b>Commute &amp; Travel APIs</b>
+                                <br>Uber, Ola, Tripadvisor, SkyScanner, Cleartrip</li>
+                            <li><b>Food &amp; Restaurants</b>
+                                <br>Zomato, Dine Out, Yelp</li>
+                            <li><b>Entertainment</b>
+                                <br>BookMyShow, IMDB, Rotten Tomatoes</li>
+                            <li><b>Search APIs</b>
+                                <br>Google Search</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="modal-container">
+            <div class="modal-background">
+                <div class="modal">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Please Feel Free To Write Us</h4>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 modal-body">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="usr">Name</label>
+                                <input type="text" class="form-control" id="usr">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="usr">Email ID</label>
+                                <input type="text" class="form-control" id="usr">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="usr">Contact No.</label>
+                                <input type="text" class="form-control" id="usr">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="usr">Inquiry About</label>
+                                <select class="form-control">
+                                    <option>Web Designing</option>
+                                    <option>Web and Mobile App Development</option>
+                                    <option>Digital Marketing</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="comment">Message</label>
+                                <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div> 
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 col-xs-12">
+                            <div class="form-group">
+                                <input name="submit" class="btn btn-submit" value="Submit" type="submit" style="width: 150px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section  class="page-section bg-scroll bg-dark-alfa-90" id="contact" style="background-image: url(../images/contact-bg.png);">
+            <div class="container relative">
+                <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-md-4 col-sm-5">
+                        <!-- Phone -->
+                        <div class="contact-item mb-40 mb-md-20">
+                            <!-- Icon -->
+                            <div class="ci-icon">
+                                <a href="tel:9876543210" style="color: #666;    font-size: 20px;">
+                                    <i class="fa fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="ci-title">Call Us</div>
+                            <div class="ci-phone">
+                                <a href="tel:+912240052484">
+                                    +91-9860571681
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Phone -->
+                        <!-- Address -->
+                        <div class="contact-item mb-40 mb-md-20">
+                            <!-- Icon -->
+                            <div class="ci-icon">
+                                <i class="fa fa-map-marker" style="font-size: 20px;"></i>
+                            </div>
+                            <div class="ci-title">Address</div>
+                            <div class="ci-text"><b>Tirnav Solution</b><br>6,Ground Floor, Sundar Bhavan,<br>Anantwadi, Bhuleshwar Road,<br>Kalbadevi, Mumbai - 400 002 </div>
+                        </div>
+                        <!-- End Address -->
+                        <!-- Email -->
+                        <div class="contact-item mb-md-40">
+                            <!-- Icon -->
+                            <div class="ci-icon">
+                                <a href="mailto:sales@tirnav.in" style="color: #666;font-size: 20px;">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </div>
+                            <div class="ci-title">Say Hello</div>
+                            <div class="ci-text"><a href="mailto:sales@tirnav.in">sales@tirnav.in</a></div>
+                        </div>
+                        <!-- End Email -->
+                    </div>
+                    <!-- End Contact Info -->
+                    <div class="col-md-7 col-md-offset-1 col-sm-7">
+                        <!-- Contact Form -->
+                        <form class="form contact-form" id="contact_form" autocomplete="off">
+                            <div class="clearfix mb-20 mb-xs-0">
+                                <div class="cf-left-col">
+                                    <!-- Name -->
+                                    <div class="form-group">
+                                        <input name="name" id="name" class="ci-field form-control" placeholder="Name" pattern=".{3,100}" required="" type="text">
+                                    </div>
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <input name="email" id="email" class="ci-field form-control" placeholder="Email" pattern=".{5,100}" required="" type="email">
+                                    </div>
+                                    <!-- Phone -->
+                                    <div class="form-group">
+                                        <input name="phone" id=""phone"" class="ci-field form-control" placeholder="Mobile Number" pattern=".{5,100}" required="" type="tel">
+                                    </div>
+                                </div>
+                                <div class="cf-right-col">
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" class="ci-area form-control" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Send Button -->
+                            <button class="submit_btn btn btn-mod btn-medium btn-full ci-btn btn-margin" id="submit_btn">
+                                Say Hello! </button>
+                            <div id="result"></div>
+                            <div class="ff-contact-info" style="display:none;"></div><div class="ff-contact-info-message-good" style="display:none;">Your message has been sent successfully</div><div class="ff-contact-info-message-bad" style="display:none;">There was a problem, please send your message later</div>
+                        </form>
+                        <!-- End Contact Form -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 col-sm-12 col-xs-12 footer-info" style="padding:0;font-size: x-small;text-align: center;position: absolute;bottom: 0;">
+                <p>Copyright © 2017 <a href="#">Tirnav Solutions</a> All Rights Reserved</p>
+            </div>
+        </section>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/lightbox.min.js"></script>
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>   
+        <script>
+            $(document).ready(function () {
+                $(".dropdown").hover(
+                        function () {
+                            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
+                            $(this).toggleClass('open');
+                        },
+                        function () {
+                            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
+                            $(this).toggleClass('open');
+                        }
+                );
+            });
+            $('#submit_btn').click(function () {
+                event.preventDefault();
+                var valid = validateContact();
+                if (valid) {
+                    $.ajax({
+                        method: "POST",
+                        url: "/Tirnav/contactus.jsp",
+                        data: $('#contact_form').serialize()
+                    })
+                            .done(function (msg) {
+                                alert('success');
+                                $('#messageSuccess').css("display", "block");
+                            });
+                }
+            });
+            $('.button').click(function () {
+                var buttonId = $(this).attr('id');
+                $('#modal-container').removeAttr('class').addClass(buttonId);
+                $('body').addClass('modal-active');
+            });
+
+            $('.close').click(function () {
+                $('#modal-container').addClass('out');
+                $('body').removeClass('modal-active');
+            });
+        </script>
+    </body>
+</html>
