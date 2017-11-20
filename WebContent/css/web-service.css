@@ -416,6 +416,7 @@
     .sec4 {
         background: url(../images/services/bg-web-develop.jpg) no-repeat #f1f1f1 top;
         padding: 50px 0px;
+        background-size: cover;
     }
     .sec4 h2 {
         font-size: 34px;
@@ -604,8 +605,11 @@
     }
     .icon-name {
         font-size: 18px;
-        color: #c3c1c0;
+        color: #2c2c2c;
         text-align: center;
         padding-top: 17px;
     }
+}
+.img-width{
+    width:16%;
 }
