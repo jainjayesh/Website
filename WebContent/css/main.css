@@ -759,6 +759,7 @@ ul.sub-menu {
     position: static;
     width: 100%;
     margin-top: 75px;
+    display: none;
 }
 
 /*#team {
@@ -3571,6 +3572,145 @@ textarea {
     }
 }
 
+
+#modal-container-tally {
+    position: fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    z-index: 1;
+}
+#modal-container-tally.one {
+    transform: scaleY(0.01) scaleX(0);
+    animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally.one .modal-background .modal {
+    transform: scale(0);
+    animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally.one.out {
+    transform: scale(1);
+    animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally.one.out .modal-background .modal {
+    animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+#modal-container-tally.three {
+    transform: scaleY(0.01) scaleX(0);
+    animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally.three .modal-background .modal {
+    transform: scale(0);
+    animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally.three.out {
+    transform: scale(1);
+    animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally.three.out .modal-background .modal {
+    animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container-tally .modal-background {
+    display: table-cell;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    vertical-align: middle;
+}
+#modal-container-tally .modal-background .modal {
+    background: white;
+    padding: 0;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 300;
+    position: relative;
+    width: 600px;
+    text-align: left;
+}
+#modal-container-tally .modal-background .modal h2 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#modal-container-tally .modal-background .modal p {
+    font-size: 18px;
+    line-height: 22px;
+}
+#modal-container-tally .modal-background .modal .modal-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+#modal-container-tally .modal-background .modal .modal-svg rect {
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-dasharray: 778;
+    stroke-dashoffset: 778;
+}
+
+.content .buttons .button {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px;
+    background: red;
+    font-size: 18px;
+    background-color: #efefef;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.content .buttons .button:hover {
+    color: white;
+    background: #009bd5;
+}
+
+@keyframes unfoldIn {
+    0% {
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@keyframes unfoldOut {
+    0% {
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+
 .careers-menu {
     background: transparent!important;
     box-shadow: none!important;
@@ -3881,9 +4021,9 @@ textarea {
 }
 
 /* Add some shadows to create a card effect */
-.card {
+/*.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+}*/
 
 /* Some left and right padding inside the container */
 .container {
@@ -4231,11 +4371,13 @@ div.tab button.active {
 .why-choose-us-subheading-1{
     font-weight: bold;
     font-size: 20px;
+    margin: 5px 0;
 }
 .why-choose-us-subheading-2{
     font-weight: bold;
     font-size: 20px;
     color: #02b3f9;
+    margin: 5px 0;
 }
 .tabcontent > h3 {
     margin-bottom: 20px;
@@ -4808,4 +4950,19 @@ a.button{
 
 a[href="http://amazingcarousel.com"]{
     display:none;
+}
+.tally-logo{
+    width: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.btn-tally{
+    background: #f01d24!important;
+    color: #FFF!important;
+    padding: 10px 20px!important;
+    margin-top: 30px!important;
+}
+.p-t-75{
+    padding-top:75px;
 }
