@@ -4966,3 +4966,19 @@ a[href="http://amazingcarousel.com"]{
 .p-t-75{
     padding-top:75px;
 }
+
+@media screen and (max-width:767px){
+    .modal-body {
+        position: relative;
+        padding: 15px;
+        background: #FFF;
+        overflow-y: auto;
+        height: 350px;
+    }
+    .img-width {
+        width: 50%;
+    }
+    .page-service {
+        padding-top: 60px!important;
+    }
+}

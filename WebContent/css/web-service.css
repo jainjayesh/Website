@@ -27,6 +27,7 @@
 .sec4 {
     background: url(../images/services/bg-web-develop.jpg) no-repeat #f1f1f1 top;
     padding: 50px 0px;
+    background-size : cover;
 }
 .sec4 h2 {
     font-size: 22px;

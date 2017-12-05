@@ -133,7 +133,7 @@
     float: left;
     font-size: 14px;
     height: auto;
-    line-height: 40px;
+    line-height: 2;
     list-style: circle;
     width: 100%;
 }
